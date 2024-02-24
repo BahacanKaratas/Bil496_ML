@@ -44,7 +44,7 @@ for category in categories:
             )
         conn.commit()
     else:
-        print(f"Error for category {category}: {response.status_code} - {response.text}")
+        print(f"Error  {category}: {response.status_code} - {response.text}")
 
 # Close database connection
 cursor.close()
